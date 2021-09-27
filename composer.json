@@ -1,0 +1,30 @@
+{
+  "name": "carlos/phpat-php-stubsmap",
+  "type": "library",
+  "description": "PHPAT PHP stubs map",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Carlos Alandete Sastre",
+      "email": "carlos.alandete@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3 || ^8.0"
+  },
+  "require-dev": {
+    "nikic/php-parser": "~4.2",
+    "jetbrains/phpstorm-stubs": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpAT\\PhpStubMap\\": "data/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PhpAT\\PhpStubMap\\App": "src/",
+      "Tests\\PhpAT\\PhpStubMap\\": "tests/"
+    }
+  }
+}
