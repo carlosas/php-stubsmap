@@ -18,13 +18,13 @@
   },
   "autoload": {
     "psr-4": {
-      "PhpAT\\PhpStubMap\\": "data/"
+      "PhpAT\\PhpStubsMap\\": "data/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "PhpAT\\PhpStubMap\\App": "src/",
-      "Tests\\PhpAT\\PhpStubMap\\": "tests/"
+      "PhpAT\\PhpStubsMap\\App": "src/",
+      "Tests\\PhpAT\\PhpStubsMap\\": "tests/"
     }
   }
 }
